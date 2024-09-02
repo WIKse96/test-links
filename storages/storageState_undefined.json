@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "frontend",
+      "value": "ac5cef548dde39dd3e34f8f3e7260dc2",
+      "domain": "rustykalneuchwyty.pl",
+      "path": "/",
+      "expires": 1725110193.97258,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "frontend_cid",
+      "value": "RrwHyK1KTwNouTaU",
+      "domain": ".rustykalneuchwyty.pl",
+      "path": "/",
+      "expires": 1725110193.972833,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSessionUser_2769870",
+      "value": "eyJpZCI6IjNiOGQzZWNkLTAwYzItNTVmNy05MTE1LTBmYmNlMDMxZWE2OCIsImNyZWF0ZWQiOjE3MjUwMjM3OTU0MDAsImV4aXN0aW5nIjp0cnVlfQ==",
+      "domain": ".rustykalneuchwyty.pl",
+      "path": "/",
+      "expires": 1756559795,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjSession_2769870",
+      "value": "eyJpZCI6ImJiMjhjYTBjLTQ2NmYtNDkzYy1hMDk2LWNhODEzZDkzZjY0YyIsImMiOjE3MjUwMjM3OTU0MDMsInMiOjEsInIiOjEsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+      "domain": ".rustykalneuchwyty.pl",
+      "path": "/",
+      "expires": 1725025595,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "CookieConsent",
+      "value": "{stamp:%27LeorlGhfpdy8CaLKlCc5dqXSHk3KSBxbFqKcuQDigIEAc3rEj5rMtw==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1725023797621%2Cregion:%27pl%27}",
+      "domain": "rustykalneuchwyty.pl",
+      "path": "/",
+      "expires": 1756559797,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://rustykalneuchwyty.pl",
+      "localStorage": [
+        {
+          "name": "ssupp_c4c0cf47068e93b50f0d130d311473ea95961ec6",
+          "value": "{\"sessionId\":\"a0iLTjnpYNH\",\"vid\":\"viIU5uHprs-x2\",\"visits\":\"1\"}"
+        }
+      ]
+    }
+  ]
+}
