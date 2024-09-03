@@ -27,15 +27,15 @@ links.forEach(link => {
     while (n < await lastEl.count()) {
       const count = await lastEl.count();  // Sprawdzamy ile jest elementów
       if (count > 1) {
-        await lastEl.nth(n).click();  
+        await lastEl.nth(n).click({timeout: 6000});  
       } else {
-        await lastEl.click({timeout: 60000});  // Klikamy ostatni element
+        await lastEl.click({timeout: 6000});  // Klikamy ostatni element
       }
       n++;
     }
 
     await button.click();
-    await expect(page.locator("//div[contains(text(),'do Twojego koszyka.')]")).toBeVisible();
+    await expect(page.locator("//div[contains(text(),'do Twojego koszyka.')]")).toBeVisible({timeout: 6000});
   });
 });
 
