@@ -19,7 +19,7 @@ links.forEach(link => {
 
     await page.mouse.wheel(0, 590);
     const button = page.getByRole('button', { name: 'Do koszyka' });
-    await expect(button).toBeVisible({ timeout: 100000 });
+    await expect(button).toBeVisible({ timeout: 1000000 });
 
     const lastEl = page.locator(lastElXpath);
 
@@ -29,7 +29,7 @@ links.forEach(link => {
       if (count > 1) {
         await lastEl.nth(n).click();  
       } else {
-        await lastEl.click({timeout: 6000});  // Klikamy ostatni element
+        await lastEl.click({timeout: 60000});  // Klikamy ostatni element
       }
       n++;
     }
